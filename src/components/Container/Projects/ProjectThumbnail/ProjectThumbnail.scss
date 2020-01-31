@@ -1,0 +1,18 @@
+.ProjectThumbnail {
+  height: 500px;
+  width: 500px;
+  position: relative;
+
+  .bg-image {
+    background-size: cover;
+    width: inherit;
+    height: inherit;
+  }
+
+  .image-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
