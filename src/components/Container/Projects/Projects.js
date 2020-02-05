@@ -24,14 +24,14 @@ const projects = [
     image: scrabble
   },
   {
-    title: "See-n-say Storymaker",
-    techUsed: "​HTML5/CSS/JS",
-    image: seeNSayStoryMaker
-  },
-  {
     title: "Slide Puzzle",
     techUsed: "HTML, CSS, JavaScript, TweenMax.js",
     image: slidePuzzle
+  },
+  {
+    title: "See-n-say Storymaker",
+    techUsed: "​HTML5/CSS/JS",
+    image: seeNSayStoryMaker
   }
 ];
 
@@ -39,7 +39,7 @@ export default function Projects() {
   return (
     <>
       <h3>Projects here!</h3>
-      <div className="container-fluid">
+      <div className="container-fluid projects-container">
         {projects.map((project, index) => (
           <ProjectThumbnail key={index} {...project} />
         ))}

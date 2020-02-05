@@ -1,18 +1,32 @@
 .ProjectThumbnail {
   height: 500px;
   width: 500px;
+  margin: 30px 0;
   position: relative;
 
   .bg-image {
-    background-size: cover;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
     width: inherit;
     height: inherit;
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
   }
 
-  .image-overlay {
+  .bg-text {
+    background-color: rgba(0, 0, 0, 0.4); 
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    z-index: 2;
+    width: fit-content;
+    padding: 20px 50px;
+    text-align: center;
   }
+
 }

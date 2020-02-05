@@ -4,6 +4,7 @@
 body {
   margin: 0;
   font-family: "Karla", sans-serif;
+  overflow: hidden;
 
   .Container {
     margin: 0;
@@ -22,6 +23,8 @@ body {
     .content {
       background: rgb(255, 239, 217);
       padding: 20px;
+      height: 100vh;
+      overflow-y: auto;
     }
   }
 }
