@@ -6,7 +6,7 @@ import Container from "./components/Container/Container";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/portfolio">
       <Container />
     </BrowserRouter>
   );

@@ -25,10 +25,10 @@ export default function Container() {
       />
       <div className="content col">
         <Switch>
-          <Route basename="/portfolio" exact path="/" component={Home} />
-          <Route basename="/portfolio" path="/projects" component={Projects} />
-          <Route basename="/portfolio" path="/resume" component={Resume} />
-          <Route basename="/portfolio" path="/contact" component={Contact} />
+          <Route exact path="/" component={Home} />
+          <Route path="/projects" component={Projects} />
+          <Route path="/resume" component={Resume} />
+          <Route path="/contact" component={Contact} />
         </Switch>
       </div>
     </div>
