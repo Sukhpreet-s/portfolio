@@ -10,7 +10,7 @@ import "./Sidebar.scss";
 const navItems = [
   { name: "Projects", link: "/projects" },
   { name: "Resume", link: "/resume" },
-  { name: "Contact me", link: "/contact" }
+  // { name: "Contact me", link: "/contact" }
 ];
 
 export default function Sidebar(props) {
