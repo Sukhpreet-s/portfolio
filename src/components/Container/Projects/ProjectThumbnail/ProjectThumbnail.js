@@ -29,7 +29,8 @@ export default function ProjectThumbnail(props) {
   };
 
   const handleClick = (e) => {
-    window.location.href = link;
+    // window.location.href = link; // Use this to open link in same tab.
+    window.open(link, "_blank") // Open link in new tab
   }
 
   return (
