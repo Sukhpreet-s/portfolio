@@ -10,7 +10,8 @@ import Contact from "./Contact/Contact";
 import Home from "./Home/Home";
 
 export default function Container() {
-  const [activeNavbar, setActiveNavbar] = useState(true);
+  const [activeNavbar, setActiveNavbar] = 
+        useState(window.location.pathname === "/portfolio/" ? true : false);
 
   const expand = useSpring({ width: activeNavbar ? "50%" : "20%" });
   const handleSqueezeSidebar = e => setActiveNavbar(false);

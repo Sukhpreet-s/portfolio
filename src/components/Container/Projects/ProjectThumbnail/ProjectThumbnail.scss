@@ -1,8 +1,9 @@
 .ProjectThumbnail {
-  height: 500px;
-  width: 500px;
-  margin: 30px 0;
+  // height: 500px; set based on bg image size
+  // width: 500px; set based on bg image size
+  margin: 0 0;
   position: relative;
+  cursor: pointer;
 
   .bg-image {
     background-size: contain !important;
@@ -10,8 +11,8 @@
     background-position: center !important;
     width: inherit;
     height: inherit;
-    filter: blur(2px);
-    -webkit-filter: blur(2px);
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
   }
 
   .bg-text {
@@ -29,4 +30,16 @@
     text-align: center;
   }
 
+  
+}
+
+.mytooltip {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  pointer-events: none; /* Allows interactions with elements underneath */
+  z-index: 300;
+  opacity: 0.7;
 }
