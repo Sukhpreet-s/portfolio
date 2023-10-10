@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a8d05f650f5d9d6c5cdad82617993177",
+    "revision": "81791b854ba80781f917df6bbe8c3da5",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "0a4c3201bc4c58223546",
-    "url": "/portfolio/static/css/main.df963225.chunk.css"
+    "revision": "00e91cf9b79b89909cf8",
+    "url": "/portfolio/static/css/main.52647b9d.chunk.css"
   },
   {
-    "revision": "7ba6079e81c17ba5907a",
-    "url": "/portfolio/static/js/2.370768dd.chunk.js"
+    "revision": "949ac303bae84737a7af",
+    "url": "/portfolio/static/js/2.b0bed7a6.chunk.js"
   },
   {
     "revision": "e928fe768baa9832b5bc57eae021f30c",
-    "url": "/portfolio/static/js/2.370768dd.chunk.js.LICENSE"
+    "url": "/portfolio/static/js/2.b0bed7a6.chunk.js.LICENSE"
   },
   {
-    "revision": "0a4c3201bc4c58223546",
-    "url": "/portfolio/static/js/main.3a7552be.chunk.js"
+    "revision": "00e91cf9b79b89909cf8",
+    "url": "/portfolio/static/js/main.70fd6c6f.chunk.js"
   },
   {
     "revision": "0d98471f6c3b69ca4251",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/recipe-book-web-app.78ee5baf.jpg"
   },
   {
-    "revision": "97d081d52a5d8c5e3de0e76aeb48fe33",
-    "url": "/portfolio/static/media/resume.97d081d5.pdf"
+    "revision": "0123c55a34bb2c07e380223620d6e135",
+    "url": "/portfolio/static/media/resume.0123c55a.pdf"
   },
   {
     "revision": "1361b89aae69956a4c6f4c750536c05f",
