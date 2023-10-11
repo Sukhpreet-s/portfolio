@@ -8,9 +8,9 @@ export default function Home() {
     <div className="Home" style={{ background: "" }}>
       <h2 style={{ background: "" }}>About</h2>
       <p style={{ background: "" }}>
-        The name's Sukhpreet Singh and I'm a software engineer / developer. <br/><br/>
-        I help people bring their ideas into the real world by using variety of technologies.<br/><br/>
-        I am currently learning about cloud architectures and devops to make applications more accessible.
+        The name's Sukhpreet Singh, and I am a Software Engineer 💻  <br/><br/>
+        I bring ideas to life 🪴 with various technologies.<br/><br/>
+        I am currently investing my time into cloud architectures and DevOps, making application development more robust and accessible.
       </p>
     </div>
   );
