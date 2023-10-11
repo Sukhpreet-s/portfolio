@@ -38,14 +38,14 @@ export default function Sidebar(props) {
         </li>
         {navlinks}
         <li>
-          <a href="https://github.com/Sukhpreet-s" target="_blank">
+          <a href="https://github.com/Sukhpreet-s" target="_blank" rel="noopener noreferrer">
           <ColoredIcon iconColor={GITHUB_COLOR}>
             <GitHubIcon />
           </ColoredIcon>
           </a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/sukhpreet-s/" target="_blank">
+          <a href="https://www.linkedin.com/in/sukhpreet-s/" target="_blank" rel="noopener noreferrer">
           <ColoredIcon iconColor={LINKEDIN_COLOR}>
             <LinkedinIcon />
           </ColoredIcon>
