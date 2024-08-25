@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import myPdf from "./resume.pdf";
+import myPdf from "./v2_resume.pdf";
 
 export default class Resume extends Component {
   render() {
